@@ -1,4 +1,5 @@
-🎯 AIM
+🎯 AIM-
+
 To develop and understand basic matrix operations using C++ programming, including:
 
 Taking input and displaying a matrix
@@ -13,7 +14,8 @@ Computing the transpose of a matrix
 
 Comparing elements of the first row with those of the second row in a matrix
 
-📚 THEORY
+📚 THEORY-
+
 Matrices are two-dimensional arrays representing data in rows and columns. Matrix operations are vital in various computational tasks:
 
 Input/Output: Handling matrix data entry and formatted display.
@@ -30,7 +32,8 @@ Comparison: Checking for common elements between two rows to identify matches.
 
 These operations build foundational knowledge for more complex algorithms and applications.
 
-🧠 CONCEPT
+🧠 CONCEPT-
+
 2D Arrays: Store matrix elements in contiguous memory with rows and columns.
 
 Nested Loops: Double loops iterate over rows and columns for input, processing, and output.
@@ -45,7 +48,8 @@ Conditional Checks: Used during comparison to detect matching elements between r
 
 Mastering these concepts enables efficient manipulation and processing of matrix data.
 
-✅ CONCLUSION
+✅ CONCLUSION-
+
 Successfully accepted and displayed matrix inputs using nested loops.
 
 Implemented matrix addition by summing corresponding elements, ensuring dimension compatibility.
