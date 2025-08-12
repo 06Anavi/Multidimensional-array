@@ -1,0 +1,33 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int cols, matrix[2][100];
+
+    cout << "Enter number of columns: ";
+    cin >> cols;
+
+    cout << "Enter elements of first row:\n";
+    for (int j = 0; j < cols; j++)
+        cin >> matrix[0][j];
+
+    cout << "Enter elements of second row:\n";
+    for (int j = 0; j < cols; j++)
+        cin >> matrix[1][j];
+
+    cout << "Matching elements between first and second row:\n";
+    for (int i = 0; i < cols; i++) {
+        for (int j = 0; j < cols; j++) {
+            if (matrix[0][i] == matrix[1][j]) {
+                cout << matrix[0][i] << " ";
+                break;
+            }
+        }
+    }
+
+    return 0;
+}
+
+OUTPUT-
+Matching elements between first and second row:
+2 5
