@@ -1,0 +1,31 @@
+#include <iostream>
+using namespace std;
+int main() {
+    int rows, cols;  
+    cout << "Enter number of rows: ";
+    cin >> rows;
+    cout << "Enter number of columns: ";
+    cin >> cols;
+    int matrix[100][100];    
+    cout << "Enter the elements of the matrix:\n";
+    for(int i = 0; i < rows; ++i) {
+        for(int j = 0; j < cols; ++j) {
+            cout << "Element [" << i << "][" << j << "]: ";
+            cin >> matrix[i][j];
+        }
+    }    
+    cout << "\nThe matrix is:\n";
+    for(int i = 0; i < rows; ++i) {
+        for(int j = 0; j < cols; ++j) {
+            cout << matrix[i][j] << "\t";
+        }
+        cout << "\n";
+    }
+    return 0;
+}
+
+OUTPUT -
+The matrix is:
+1	2	3	
+4	5	6
+
